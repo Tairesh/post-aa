@@ -1,0 +1,4 @@
+*.rpyc
+*.bak
+saves/
+cache/
