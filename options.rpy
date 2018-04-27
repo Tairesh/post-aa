@@ -17,8 +17,8 @@ init -1 python hide:
 
     ## Эти управляют шириной и высотой экрана.
 
-    config.screen_width = 1920
-    config.screen_height = 1080
+    config.screen_width = 1366
+    config.screen_height = 768
 
     ## Это управляет заголовком окна, когда Ren'Py
     ## запущен в оконном режиме.
@@ -28,7 +28,7 @@ init -1 python hide:
     # Эти управляют именем и версией игры, которые указываются
     # в журналах отладки.
     config.name = "postaa"
-    config.version = "0.0"
+    config.version = "0.0.1"
 
     #########################################
     # Темы
@@ -41,32 +41,32 @@ init -1 python hide:
 
     theme.tv(
         ## Theme: TV
-        ## Color scheme: Phone Operator
+        ## Color scheme: Dramatic Flesh
 
         ## The color of an idle widget face.
-        widget = "#59667a",
+        widget = "#BF7C51",
 
         ## The color of a focused widget face.
-        widget_hover = "#343e4d",
+        widget_hover = "#dda570",
 
         ## The color of the text in a widget.
-        widget_text = "#ffffff",
+        widget_text = "#E5DFDF",
 
         ## The color of the text in a selected widget. (For
         ## example, the current value of a preference.)
-        widget_selected = "#bed4f6",
+        widget_selected = "#ffffff",
 
         ## The color of a disabled widget face.
-        disabled = "#929292",
+        disabled = "#ab6038",
 
         ## The color of disabled widget text.
-        disabled_text = "#ababab",
+        disabled_text = "#BF7C51",
 
         ## The color of informational labels.
-        label = "#343e4d",
+        label = "#ffffff",
 
         ## The color of a frame containing widgets.
-        frame = "#d2d2d2",
+        frame = "#49271b",
 
         ## The background of the main menu. This can be a color
         ## beginning with '#', or an image filename. The latter
@@ -76,7 +76,7 @@ init -1 python hide:
         ## The background of the game menu. This can be a color
         ## beginning with '#', or an image filename. The latter
         ## should take up the full height and width of the screen.
-        gm_root = "#59667a",
+        gm_root = "#2a201f",
 
         ## If this is True, the in-game window is rounded. If False,
         ## the in-game window is square.
@@ -85,7 +85,7 @@ init -1 python hide:
         ## And we're done with the theme. The theme will customize
         ## various styles, so if we want to change them, we should
         ## do so below.
-    )
+        )
 
 
     #########################################
